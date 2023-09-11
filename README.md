@@ -1,1 +1,86 @@
-# BSCPE-1-4_Assignment-2
+# Assignment 2
+
+  **Built for :** Subject assignment for Object Oriented Programming.
+
+  **Submitted to :** Prof. Danilo Madrigalejos 
+  
+  **A.Y :** 2022-2023
+
+## About the Project
+**PYTHON STRINGS**
+
+PROBLEM 1 – ENCRYPTION (25 points)
+
+Write a Python Script that will accept a string as a plain text and then the program will encrypt it using the following character substitute:
+
+
+
+'a' = *, 'e' = &, 'i' = # , 'o' = + 'u' = !
+
+
+
+See sample output:
+
+
+
+Enter a string to encrypt: the quick brown fox jumps over the lazy dog.
+
+Encrypted string : th& q!#ck br+wn f+x j!mps +v&r th& l*zy d+g
+
+PROBLEM 2 – DECRYPTION (25 points)
+
+Write a Python Script that will accept a string as encrypted text and then the program will decrypt it using the following character substitute:
+
+
+
+'a' = *, 'e' = & , 'i' = # , 'o' = + 'u' = !
+
+
+
+See sample output:
+
+
+
+Enter a string to decrypt: th& q!#ck br+wn f+x j!mps +v&r th& l*zy d+g.
+
+The Plain Text:  the quick brown fox jumps over the lazy dog.
+
+
+
+PROBLEM 3 - The Vigenère Cipher  (50 points)
+
+The Vigenère Cipher works as follows:
+
+Your key is a keyword, which you then translate into corresponding letter values 0 – 25. Then, to encrypt, write your message on one row (letters 0 – 25), and repeatedly write the keyword below it, adding each column, taking the result mod 26. These resultant numbers are the ciphertext. Here is a small example:
+
+
+
+Message: LETSGOTOTHESHOW 11  4 19 18  6 14 19 14   19    7   4    18    7   14     22
+
+Key: TICKET                                    19 8   2 10 4  19 19   8    2   10   4   19   19    8       2
+
+Add: 30 12 21 28 10 33 38 22 21 17 8 37 26 22 24
+
+Mod: 4 12 21 2 10 7 12 22 21 17 8 11 0 22 24
+
+Ciphertext: E M V C K H M W V R I L A W Y
+
+Write a program that asks the user for the plaintext (all uppercase letters, no spaces) and the keyword (all uppercase letters) and produce the ciphertext using the Vigenère cipher. Give the output of your program for the following message and key:
+
+
+Message: THISISTHELASTTASKHOORDAY
+
+Key: KNIGHTS
+
+
+
+## Running the Program
+
+1. Input the needed informatiion.
+
+### Contact
+Zemerelin Iris M. Membrere - _zemerelinmembrere@gmail.com_
+
+**Output Link :** https://drive.google.com/file/d/1Pseq19qYkJtyzMnxwJA9deAKUMJBPMOp/view?usp=drive_link
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
